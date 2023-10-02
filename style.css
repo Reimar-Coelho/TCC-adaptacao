@@ -129,31 +129,37 @@
 
 .parte1 {
     background-color: #f0f0f0;
-    display: flex;
-    justify-content: space-between;
     border-style: solid none solid none;
     border-color: #b9b9b9;
     border-width: 1px;
-    padding: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comeco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .titulo {
     display: flex;
     margin-top: 10%;
     flex-wrap: nowrap;
-    margin-left: 30%;
     max-width: 450px;
     font-size: 2.25rem;
     font-weight: 300;
     line-height: 1.22;
     font-size: calc(2.35rem + .375 * ((100vw - 42rem)/ 24));
-    margin-bottom: 120px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .texto1 {
     display: flex;
     flex-wrap: nowrap;
-    margin-left: 30%;
     max-width: 450px;
     color: #5a5a5a;
     font-family: 'IBM Plex Sans','Helvetica Neue',sans-serif;
@@ -161,6 +167,8 @@
     letter-spacing: 0;
     font-size: 1.26rem;
     font-size: calc(1.35rem + 0 * ((100vw - 20rem)/ 62));
+    text-align: justify;
+
 }
 
 .cabeca {
@@ -195,8 +203,7 @@
     transition: all 0.5s;
 }
 
-.bolinha {
-    margin-right: 10%;
+.bloodsport {
     margin-top: 3%;
 }
 
@@ -207,6 +214,9 @@
     border-width: 1px;
     padding: 0;
     margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .blocoNav {
     margin: 0;
@@ -232,7 +242,7 @@
 }
 
 .navegar2 {
-    margin-left: 1%;
+    margin-left: 7%;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -244,17 +254,16 @@
 }
 
 #sc2{
+    height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
-    position: static;
 }
 
 #sc3{
-    height: 90vh;
+    height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("//1.cms.s81c.com/sites/default/files/2022-11-16/iberdrola-hero_2.jpg");
-    background-attachment: fixed;
+    
 
 }
 
@@ -265,111 +274,16 @@
     background-color: #f0f0f0;
 }
 
-
-.texto2 {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-left: 18%;
-    max-width: 500px;
-    color: #5a5a5a;
-    font-family: 'IBM Plex Sans','Helvetica Neue',sans-serif;
-    line-height: 1.3;
-    margin-top: 2%;
-    letter-spacing: 0;
-    font-size: 1.26rem;
-    font-size: calc(1.55rem + 0 * ((100vw - 20rem)/ 62));
-}
-
 .a1 {
     font-family: 'IBM Plex Sans','Helvetica Neue',sans-serif; 
     text-decoration: none;
     color: #000000;
 }
 
-.texto3 {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-left: 18%;
-    max-width: 580px;
-    font-family: 'IBM Plex Sans','Helvetica Neue',sans-serif;
-    line-height: 1.3;
-    margin-top: 2%;
-    letter-spacing: 0;
-    font-size: 1.26rem;
-    font-size: calc(1.1rem + 0 * ((100vw - 20rem)/ 62));
-    text-decoration: none;
-}
-
-.seta2 {
-    margin-top: 2px;
-    width: calc(1.2rem + 0 * ((100vw - 20rem)/ 62));;
-    height: calc(1.2rem + 0 * ((100vw - 20rem)/ 62));;
-}
-
-.webinar {
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: space-between;
-}
-
-.textoWebinar {
-    margin-right: 10%;
-    margin-left: 3.4%;
-}
-
 h3{
     padding-top: 15px;
     font-size: 1.6rem;
     font-size: calc(1.6rem + 0 * ((100vw - 20rem)/ 62));
-}
-
-.spanWebinar {
-    display: flex;
-    flex-wrap: nowrap;
-    font-size: 1.26rem;
-    font-size: calc(1.26rem + 0 * ((100vw - 20rem)/ 62));
-    max-width: 380px;
-    padding-bottom: 30px;
-}
-
-.inscrevase {
-    max-width: 590px;
-    max-height: 50px;
-    margin-right: 1%;
-    margin-top: 35px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: solid rgb(36, 36, 255);
-    background-color: rgb(36, 36, 255);
-}
-
-.inscrevase2 {
-    margin-top: 7%;
-    margin-right: 100px;
-    margin-left: 10px;
-    color: white;
-    margin-bottom: 23px;
-}
-
-.inscrevase:hover {
-    background-color: rgb(0, 0, 255);
-    border: solid rgb(0, 0, 255);
-    transition: all 0.5s;
-}
-
-.sc2 {
-    position: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    margin-right: 13.5%;
-    margin-bottom: 5%;
-}
-
-.tela2 {
-    display: inline-flex;
-    justify-content: flex-end;
-    flex-wrap: nowrap;
 }
 
 .itenssc2 {
@@ -387,116 +301,6 @@ h3{
 .itemsc2 {
     font-size: 14px;
     margin-right: 10px;
-}
-
-.servicos {
-    font-weight: bolder;
-    border-style: none none solid none;
-    border-color: blue;
-}
-
-.mulher {
-    width: 55%;
-}
-
-.textoPag2 {
-    margin-top: 6.2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-left: 5%;
-}
-
-.spanPag2-1 {
-    font-weight: 300;
-    font-size: xx-large;
-    max-width: 250px;
-}
-
-.spanPag2-2 {
-    max-width: 300px;
-    font-size: smaller;
-    margin-top: 5%;
-    color: #5a5a5a;
-}
-
-.texto4 {
-    display: flex;
-    flex-wrap: nowrap;
-    max-width: 500px;
-    font-family: 'IBM Plex Sans','Helvetica Neue',sans-serif;
-    line-height: 1.3;
-    margin-top: 2%;
-    letter-spacing: 0;
-    font-size: 1.26rem;
-    margin-top: 6%;
-    font-size: calc(1rem + 0 * ((100vw - 20rem)/ 62));
-    text-decoration: none;
-}
-
-.aaaaaaaaaaaaaa {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-
-}
-
-.secao1 {
-    margin-left: 12%;
-}
-
-.casoCliente {
-    max-width: 290px;
-    max-height: 50px;
-    margin-right: 1%;
-    margin-left: 5%;
-    margin-top: 35px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: solid rgb(36, 36, 255);
-    background-color: rgb(36, 36, 255);
-}
-
-.casoCliente:hover {
-    background-color: rgb(0, 0, 255);
-    border: solid rgb(0, 0, 255);
-    transition: all 0.5s;
-}
-
-.tituloCaso {
-    display: flex;
-    margin-top: 10%;
-    margin-left: 5%;
-    flex-wrap: nowrap;
-    max-width: 450px;
-    font-size: 2.25rem;
-    font-weight: 300;
-    line-height: 1.22;
-    font-size: calc(2.35rem + .375 * ((100vw - 42rem)/ 24));
-    margin-bottom: 60px;
-    color: white;
-}
-
-.casoClienteTxt {
-    margin-top: 7%;
-    margin-right: 10%;
-    margin-left: 10px;
-    color: white;
-    margin-bottom: 23px;
-}
-
-.texto5 {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-left: 5%;
-    max-width: 450px;
-    color: #ffffff;
-    font-family: 'IBM Plex Sans','Helvetica Neue',sans-serif;
-    line-height: 1.3;
-    letter-spacing: 0;
-    font-size: 1.26rem;
-    font-size: calc(1.35rem + 0 * ((100vw - 20rem)/ 62));
 }
 
 .itenssc4 {
