@@ -129,9 +129,9 @@
 }
 
 .parte1 {
-    background-color: #2b2f4b;
+    background-color: #111;
     border-style: solid none solid none;
-    border-color: #212338;
+    border-color: #252525;
     border-width: 1px;
     padding: 20px;
     display: flex;
@@ -191,12 +191,13 @@
 
 .bloodsport {
     margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .navegar {
-    background-color: #2b2f4b;
+    background-color: #111;
     border-style: solid none solid none;
-    border-color: #212338;
+    border-color: #252525;
     border-width: 1px;
     padding: 0;
     margin: 0;
@@ -232,7 +233,7 @@
 }
 
 .itemNav:hover {
-    background-color: rgba(0, 0, 148, 0.1);
+    background-color: rgba(41, 41, 41, 0.1);
     transition: all 0.5s;
 }
 
@@ -242,32 +243,24 @@
 }
 
 #sc1{
-    height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #2b2f4b;
 }
 
 #sc2{
-    height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #2b2f4b;
 }
 
 #sc3{
-    height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #2b2f4b;
-
 }
 
 #sc4{
     height: fit-content;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #2b2f4b;
 }
 
 .a1 {
@@ -303,12 +296,6 @@ h3{
     display: inline-flex;   
 }
 
-.itenssc4 a {
-    padding: 5%;
-    min-width: fit-content;
-    color:#000;
-    font-weight: 700;
-}
 
 .sc4Ul {
     display: flex;
@@ -318,11 +305,16 @@ h3{
 
 .sc4Li {
     min-width: max-content;
+    color: #dbdbdb;
     font-weight: 700;
+    text-shadow:
+    0 0 10px #686868;
 }
 
 .liSub {
-    color: #5a5a5a;
+    color: #dbdbdb;
+    text-shadow:
+    0 0 10px #686868;
 }
 
 .geralsc4 {
@@ -347,9 +339,9 @@ h3{
 }
 
 .parte1 {
-    background-color: #2b2f4b;
+    background-color: #111;
     border-style: solid none solid none;
-    border-color: #212338;
+    border-color: #252525;
     border-width: 1px;
     padding: 20px;
     display: flex;
@@ -375,7 +367,7 @@ h3{
 }
 
 main {
-    background-color: #2b2f4b;
+    background-color: #111;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -385,25 +377,25 @@ main div {
     width: 100%;
 }
 
-#about, #features{
-    background-color: #2b2f4b;
+#features{
+    background-color: #111;
     padding: 40px;
 }
 
-#about .header, #features .header{
+#features .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
 }
 
-#about .header h1, #features .header h1{
+#features .header h1{
     text-align: center;
     color: #fff;
     text-transform: uppercase;
 }
 
-#about .header a, #features .header a{
+#features .header a{
     text-decoration: none;
     font-size: 1.3em;
     color: #fff;
@@ -414,39 +406,27 @@ main div {
     transition: all 0.3s ease;
 }
 
-#about .header a:hover, #features .header a:hover{
+#features .header a:hover{
     border-color: #fff;
     box-shadow: none;
 }
 
-#about .card, #features .card{
+#features .card{
     padding: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     border-radius: 20px;
     display: flex;
     gap: 30px;
-    border: 1px solid transparent;
+    border: 1px solid #111;
     transition: all 0.3s ease;
 }
 
-#about .card:hover, #features .card:hover{
+#features .card:hover{
     border-color: #fff;
     box-shadow: none;
 }
 
-#about .card img{
-    max-width: 200px;
-    max-height: 200px;
-}
-
-#about .card .info{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-#about .card .info h1, #features .card .info h1{
+#features .card .info h1{
     margin-bottom: 20px;
     color: #fff;
     font-size: 1.7rem;
@@ -454,7 +434,7 @@ main div {
     font-family: 'IBM Plex Sans','Helvetica Neue',sans-serif;
 }
 
-#about .card .info p, #features .card .info p{
+#features .card .info p{
     color: #ccc;
     font-size: 1.1rem;
     line-height: 1.8rem;
@@ -492,9 +472,7 @@ main div {
 }
 
 .card {
-    background-color: #2b2f4b;
-    --bs-card-bg: #2b2f4b;
-    --bs-body-bg: #2b2f4b;
+    background: linear-gradient(45deg,#452432,#1f2c35);
 }
 .card img {
     width: 100%;
