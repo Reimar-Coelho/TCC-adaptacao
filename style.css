@@ -41,11 +41,6 @@
     border: 2px #ffffff solid;
     padding: 1em;
     cursor: pointer;
-    transition: background 0.3s;
-}
-
-.select:hover {
-    background: #b9b9b9;
 }
 
 .caret {
