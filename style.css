@@ -479,3 +479,32 @@ main div {
     font-weight: bold;
     color: #008000;
 }
+
+@media (max-width: 768px) {
+    .login {
+        display: none;
+    }
+    .logo {
+        width: 50px;
+    }
+    .titulo {
+        margin-top: 27%;
+    }
+    .texto1 {
+        max-width: 250px;
+    }
+    .itemNav {
+        width: 130px;
+    }
+    #features .feature-cards .card {
+        min-width: 280px;
+    }
+    .itenssc4 {
+        flex-direction: column;
+    }
+    .sc4Ul {
+        margin-bottom: 5px;
+        padding: 1% 5%;
+    }
+    
+}
